@@ -39,7 +39,8 @@
                         lime: '#BCED6D1A',
                         lemon: '#FDDD5F1A',
                         sky: '#629CF31A',
-                        gray: '#13131808'
+                        gray: '#13131808',
+                        dgray: '#dddddd'
                     }
                 }
             }
@@ -88,7 +89,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-                <a class="btn text-xl font-bold bg-coral text-white">Get Ticket</a>
+                <a class="btn text-xl font-bold bg-coral text-white text-white">Get Ticket</a>
             </div>
         </div>
     </header>
@@ -105,10 +106,10 @@
                         <div
                             class="absolute ml-4 h-full pb-6 flex justify-between items-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <div>
-                                <a href="#slide4" class="btn btn-circle mr-4">❮</a>
-                                <a href="#slide2" class="btn btn-circle">❯</a>
+                                <a href="#slide4" class="btn btn-circle mr-4 bg-black text-white">❮</a>
+                                <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
                             </div>
-                            <div class="bg-black w-6/12 p-8 rounded-2xl">
+                            <div class="bg-black w-6/12 p-8 rounded-2xl max-sm:hidden text-white">
                                 <h1 class="text-2xl font-bold mb-4">Meet all the heroes from the field</h1>
                                 <p class="text-base font-medium leading-7">Our heros are playing very well. To get real
                                     life
@@ -124,10 +125,10 @@
                         <div
                             class="absolute ml-4 h-full pb-6 flex justify-between items-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <div>
-                                <a href="#slide1" class="btn btn-circle mr-4">❮</a>
-                                <a href="#slide3" class="btn btn-circle">❯</a>
+                                <a href="#slide1" class="btn btn-circle mr-4 bg-black text-white">❮</a>
+                                <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
                             </div>
-                            <div class="bg-black w-6/12 p-8 rounded-2xl">
+                            <div class="bg-black w-6/12 p-8 rounded-2xl max-sm:hidden text-white">
                                 <h1 class="text-2xl font-bold mb-4">Meet all the heroes from the field</h1>
                                 <p class="text-base font-medium leading-7">Our heros are playing very well. To get real
                                     life
@@ -143,10 +144,10 @@
                         <div
                             class="absolute ml-4 h-full pb-6 flex justify-between items-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <div>
-                                <a href="#slide2" class="btn btn-circle mr-4">❮</a>
-                                <a href="#slide4" class="btn btn-circle">❯</a>
+                                <a href="#slide2" class="btn btn-circle mr-4 bg-black text-white">❮</a>
+                                <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
                             </div>
-                            <div class="bg-black w-6/12 p-8 rounded-2xl hidden lg:block">
+                            <div class="bg-black w-6/12 p-8 rounded-2xl max-sm:hidden text-white">
                                 <h1 class="text-2xl font-bold mb-4">Meet all the heroes from the field</h1>
                                 <p class="text-base font-medium leading-7">Our heros are playing very well. To get real
                                     life
@@ -161,13 +162,21 @@
                         <div
                             class="absolute ml-4 h-full pb-6 flex justify-between items-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <div>
-                                <a href="#slide3" class="btn btn-circle mr-4">❮</a>
-                                <a href="#slide1" class="btn btn-circle">❯</a>
+                                <a href="#slide3" class="btn btn-circle mr-4 bg-black text-white">❮</a>
+                                <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                            </div>
+                            <div class="bg-black w-6/12 p-8 rounded-2xl max-sm:hidden text-white">
+                                <h1 class="text-2xl font-bold mb-4">Meet all the heroes from the field</h1>
+                                <p class="text-base font-medium leading-7">Our heros are playing very well. To get real
+                                    life
+                                    experience and get the main enjoyment come and see all of the heros from field.
+                                    Cheer
+                                    the heros.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="bg-black p-8 rounded-2xl mt-6">
+                <div class="bg-black p-8 rounded-2xl mt-6 lg:hidden text-white">
                     <h1 class="text-2xl font-bold mb-4">Meet all the heroes from the field</h1>
                     <p class="text-base font-medium leading-7">Our heros are playing very well. To get real
                         life
@@ -182,7 +191,7 @@
 
         <section>
             <div class="element-container m-auto pt-8 mb-28">
-                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed mb-12">
+                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed border-dgray mb-12">
                     <div
                         class="text-center max-sm:border-t-[2px] max-sm:border-b-[2px] border-dashed lg:w-2/4 m-auto py-8  max-sm:px-6">
                         <h1 class="lg:text-4xl max-sm:text-2xl font-extrabold">Professional Hockeys Club</h1>
@@ -192,35 +201,35 @@
                 </div>
                 <div class="lg:flex lg:justify-around">
                     <div class="w-11/12 m-auto border-black text-center">
-                        <div class="radial-progress rotate-180 p-4" style="--value:100;" role="progressbar">
-                            <div class="radial-progress text-error progress-shadow p-4" style="--value:87;"
-                                role="progressbar"><span class="rotate-180 font-extrabold text-3xl">87%</span></div>
+                        <div class="radial-progress rotate-[145deg] text-gray" style="--value:100;" role="progressbar">
+                            <div class="radial-progress text-error progress-shadow" style="--value:87;"
+                                role="progressbar"><span class="rotate-[-145deg] font-extrabold text-2xl text-black">87%</span></div>
                         </div>
-                        <h1>Test</h1>
+                        <h1 class="text-xl font-semibold my-4">Prayer Facility</h1>
                         <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
                     <div class="w-11/12 m-auto border-black text-center">
-                        <div class="radial-progress rotate-180 p-4" style="--value:100;" role="progressbar">
-                            <div class="radial-progress text-success progress-shadow p-4" style="--value:95;"
-                                role="progressbar"><span class="rotate-180 font-extrabold text-3xl">95%</span></div>
+                        <div class="radial-progress rotate-[145deg] text-gray" style="--value:100;" role="progressbar">
+                            <div class="radial-progress text-success progress-shadow" style="--value:95;"
+                                role="progressbar"><span class="rotate-[-145deg] font-extrabold text-2xl text-black">95%</span></div>
                         </div>
-                        <h1>Test</h1>
+                        <h1 class="text-xl font-semibold my-4">Experienced Coach</h1>
                         <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
                     <div class="w-11/12 m-auto border-black text-center">
-                        <div class="radial-progress rotate-180 p-4" style="--value:100;" role="progressbar">
-                            <div class="radial-progress text-warning progress-shadow p-4" style="--value:90;"
-                                role="progressbar"><span class="rotate-180 font-extrabold text-3xl">90%</span></div>
+                        <div class="radial-progress rotate-[145deg] text-gray" style="--value:100;" role="progressbar">
+                            <div class="radial-progress text-warning progress-shadow" style="--value:90;"
+                                role="progressbar"><span class="rotate-[-145deg] font-extrabold text-2xl text-black">90%</span></div>
                         </div>
-                        <h1>Test</h1>
+                        <h1 class="text-xl font-semibold my-4">Senior Player</h1>
                         <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
                     <div class="w-11/12 m-auto border-black text-center">
-                        <div class="radial-progress rotate-180 p-4" style="--value:100;" role="progressbar">
-                            <div class="radial-progress text-primary progress-shadow p-4" style="--value:80;"
-                                role="progressbar"><span class="rotate-180 font-extrabold text-3xl">80%</span></div>
+                        <div class="radial-progress rotate-[145deg] text-gray" style="--value:100;" role="progressbar">
+                            <div class="radial-progress text-primary progress-shadow" style="--value:80;"
+                                role="progressbar"><span class="rotate-[-145deg] font-extrabold text-2xl text-black">80%</span></div>
                         </div>
-                        <h1>Test</h1>
+                        <h1 class="text-xl font-semibold my-4">Training Ground</h1>
                         <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
                 </div>
@@ -231,7 +240,7 @@
 
         <section>
             <div class="element-container m-auto mb-28">
-                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed mb-12">
+                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed border-dgray mb-12">
                     <div
                         class="text-center max-sm:border-t-[2px] max-sm:border-b-[2px] border-dashed lg:w-2/4 max-sm:w-11/12 m-auto py-8 max-sm:px-6">
                         <h1 class="lg:text-4xl max-sm:text-2xl font-extrabold">Program Sections</h1>
@@ -240,31 +249,31 @@
                             like. See all of our programs and choose your favorite one to join.</p>
                     </div>
                 </div>
-                <div>
+                <div class="text-white">
                     <div class="lg:flex lg:gap-6 mb-6">
-                        <div class="lg:w-[49%] max-sm:mb-6 px-8 pb-8 pt-24 rounded-2xl bg-success background-img1">
+                        <div class="lg:w-[49%] max-sm:mb-6 px-8 pb-8 pt-24 rounded-2xl background-img1">
                             <h1>Junior Program</h1>
                             <p class="mb-6">Junior players are always became great player in future. Junior are keeping
                                 training with extra care and guide. Join to junior program, play and enjoy the hockey's.
                             </p>
-                            <button class="btn capitalize">register now</button>
+                            <button class="btn bg-coral text-white capitalize border-0 py-2">register now</button>
                         </div>
-                        <div class="lg:w-[49%] px-8 pb-8 pt-24 rounded-2xl bg-success background-img2">
+                        <div class="lg:w-[49%] px-8 pb-8 pt-24 rounded-2xl background-img2">
                             <h1>Junior Program</h1>
                             <p class="mb-6">Junior players are always became great player in future. Junior are keeping
                                 training with extra care and guide. Join to junior program, play and enjoy the hockey's.
                             </p>
-                            <button class="btn capitalize">register now</button>
+                            <button class="btn bg-coral text-white capitalize border-0 py-2">register now</button>
                         </div>
                     </div>
                     <div>
-                        <div class="w-full px-8 pb-8 pt-24 rounded-2xl bg-success background-img3">
+                        <div class="w-full px-8 pb-8 pt-24 rounded-2xl background-img3">
                             <div class="w-[48%]">
                                 <h1>Junior Program</h1>
                                 <p class="mb-6">Junior players are always became great player in future. Junior are
                                     keeping training with extra care and guide. Join to junior program, play and enjoy
                                     the hockey's. </p>
-                                <button class="btn capitalize">register now</button>
+                                <button class="btn bg-coral text-white capitalize border-0">register now</button>
                             </div>
                         </div>
                     </div>
@@ -276,7 +285,7 @@
 
         <section>
             <div class="element-container mb-28">
-                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed mb-12">
+                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed border-dgray mb-12">
                     <div
                         class="text-center max-sm:border-t-[2px] max-sm:border-b-[2px] border-dashed lg:w-2/4 max-sm:w-11/12 m-auto py-8 max-sm:px-6">
                         <h1 class="lg:text-4xl max-sm:text-2xl font-extrabold">Our New Products</h1>
@@ -285,7 +294,7 @@
                     </div>
                 </div>
                 <div class="flex gap-6 mb-6 max-sm:flex-col">
-                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full">
+                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full border-dgray">
                         <div class="lg:w-[220px] max-sm:h-50 max-sm:w-full max-sm:px-6 max-sm:pt-6">
                             <img class="lg:py-6 lg:pl-6 w-full h-full lg:block max-sm:hidden" src="Images/5.png"
                                 alt="img">
@@ -390,7 +399,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full">
+                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full border-dgray">
                         <div class="lg:w-[220px] max-sm:h-50 max-sm:w-full max-sm:px-6 max-sm:pt-6">
                             <img class="lg:py-6 lg:pl-6 w-full h-full lg:block max-sm:hidden" src="Images/6.png"
                                 alt="img">
@@ -498,7 +507,7 @@
                     </div>
                 </div>
                 <div class="flex gap-6 mb-6 max-sm:flex-col">
-                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full">
+                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full border-dgray">
                         <div class="lg:w-[220px] max-sm:h-50 max-sm:w-full max-sm:px-6 max-sm:pt-6">
                             <img class="lg:py-6 lg:pl-6 w-full h-full lg:block max-sm:hidden" src="Images/7.png"
                                 alt="img">
@@ -604,7 +613,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full">
+                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full border-dgray">
                         <div class="lg:w-[220px] max-sm:h-50 max-sm:w-full max-sm:px-6 max-sm:pt-6">
                             <img class="lg:py-6 lg:pl-6 w-full h-full lg:block max-sm:hidden" src="Images/8.png"
                                 alt="img">
@@ -712,7 +721,7 @@
                     </div>
                 </div>
                 <div class="flex gap-6 mb-6 max-sm:flex-col">
-                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full">
+                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full border-dgray">
                         <div class="lg:w-[220px] max-sm:h-50 max-sm:w-full max-sm:px-6 max-sm:pt-6">
                             <img class="lg:py-6 lg:pl-6 w-full h-full lg:block max-sm:hidden" src="Images/9.png"
                                 alt="img">
@@ -818,7 +827,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full">
+                    <div class="lg:flex gap-4 rounded-2xl border-[1px] w-[49%] max-sm:w-full border-dgray">
                         <div class="lg:w-[220px] max-sm:h-50 max-sm:w-full max-sm:px-6 max-sm:pt-6">
                             <img class="lg:py-6 lg:pl-6 w-full h-full lg:block max-sm:hidden" src="Images/10.png"
                                 alt="img">
@@ -932,7 +941,7 @@
 
         <section>
             <div class="element-container mb-28">
-                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed mb-12">
+                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed mb-12 border-dgray">
                     <div
                         class="text-center max-sm:border-t-[2px] max-sm:border-b-[2px] border-dashed lg:w-2/4 max-sm:w-6/12 m-auto py-8 max-sm:px-6">
                         <h1 class="lg:text-4xl max-sm:text-2xl font-extrabold">Clients Question</h1>
@@ -941,13 +950,13 @@
                     </div>
                 </div>
 
-                <div class="lg:flex lg:gap-8 border-[1px] p-8 pb-0 rounded-2xl">
+                <div class="lg:flex lg:gap-8 border-[1px] p-8 pb-0 rounded-2xl border-dgray">
                     <div class="max-sm:w-full mb-6">
                         <img class="w-full" src="Images/11.png" alt="Question?">
                     </div>
 
                     <div class="w-7/12 max-sm:w-full">
-                        <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <div class="collapse collapse-plus border-b-[1px] border-dgray rounded-none">
                             <input type="radio" name="my-accordion-3" checked="checked" />
                             <div class="collapse-title text-xl font-bold pl-0">
                                 Our Equipment
@@ -957,7 +966,7 @@
                                     old equipment do you have?</p>
                             </div>
                         </div>
-                        <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <div class="collapse collapse-plus border-b-2 rounded-none border-b-[1px] border-dgray">
                             <input type="radio" name="my-accordion-3" />
                             <div class="collapse-title text-xl font-bold pl-0">
                                 Hockey Training
@@ -967,7 +976,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <div class="collapse collapse-plus  border-b-[1px] border-dgray rounded-none">
                             <input type="radio" name="my-accordion-3" />
                             <div class="collapse-title text-xl font-bold pl-0">
                                 Private Lessons
@@ -977,7 +986,7 @@
                                     privet lessons?</p>
                             </div>
                         </div>
-                        <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <div class="collapse collapse-plus rounded-none border-b-[1px] border-dgray">
                             <input type="radio" name="my-accordion-3" />
                             <div class="collapse-title text-xl font-bold pl-0">
                                 Ski Touring
@@ -986,7 +995,7 @@
                                 <p>how to go ski touring? how strenuous are ski tours? ski touring how does it work?</p>
                             </div>
                         </div>
-                        <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <div class="collapse collapse-plus rounded-none border-b-[1px] border-dgray">
                             <input type="radio" name="my-accordion-3" />
                             <div class="collapse-title text-xl font-bold pl-0">
                                 Booking
@@ -1015,7 +1024,7 @@
 
         <section>
             <div class="element-container mb-20">
-                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed mb-12">
+                <div class="lg:border-t-[2px] lg:border-b-[2px] border-dashed mb-12 border-dgray">
                     <div
                         class="text-center max-sm:border-t-[2px] max-sm:border-b-[2px] border-dashed lg:w-2/4 max-sm:w-6/12 m-auto py-8 max-sm:px-6">
                         <h1 class="lg:text-4xl max-sm:text-2xl font-extrabold capitalize">get in touch</h1>
@@ -1026,7 +1035,7 @@
 
                 <div class="lg:flex lg:gap-8">
                     <div class="lg:w-[30%]">
-                        <div class="p-8 border-[1px] rounded-2xl">
+                        <div class="p-8 border-[1px] rounded-2xl border-dgray">
                             <div class="px-8 pt-8 pb-12 bg-lime rounded-2xl mb-6">
                                 <img class="mb-6" src="Images/Group 1171275317.png" alt="">
                                 <p>Phone Number : </p>
@@ -1091,7 +1100,7 @@
                                     placeholder="Write your message"></textarea>
                             </div>
 
-                            <button class="btn join-item w-full rounded-xl">Subscribe</button>
+                            <button class="btn join-item w-full rounded-xl bg-coral text-white">Send Message</button>
 
                         </form>
                     </div>
@@ -1117,7 +1126,7 @@
 
     </main>
 
-    <footer class="bg-base-200">
+    <footer class="bg-black text-white">
         <div class="footer element-container p-10 lg:flex justify-between">
             <div class="lg:w-1/3 max-sm:text-center max-sm:w-full">
                 <h1 class="capitalize mb-4 font-extrabold text-3xl w-full">get in touch</h1>
@@ -1135,7 +1144,7 @@
                     <p>(+62) 123-321-543</p>
                 </div>
             </div>
-            <div class="flex footer element-container px-10 m-0 lg:flex justify-center lg:gap-40 text-center w-full">
+            <div class="flex footer m-0 lg:flex justify-center lg:gap-40 text-center">
                 <nav class="max-sm:w-full">
                     <header class="footer-title mb-6 text-lg max-sm:text-center max-sm:w-full">Company</header>
                     <a class="link link-hover mb-3 max-sm:w-full max-sm:text-center" href="">About us</a>
@@ -1152,7 +1161,7 @@
                     <a class="link link-hover mb-3 max-sm:w-full max-sm:text-center" href="">Contact Us</a>
                 </nav>
             </div>
-            <nav class="max-sm:w-full">
+            <nav class="w-[20%]">
                 <header class="footer-title mb-6 text-lg max-sm:text-center max-sm:w-full">Service</header>
                 <a class="link link-hover mb-3 max-sm:w-full max-sm:text-center" href="">Academy</a>
                 <a class="link link-hover mb-3 max-sm:w-full max-sm:text-center" href="">Group Lesson</a>
