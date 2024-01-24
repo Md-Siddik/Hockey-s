@@ -9,6 +9,19 @@
 .slide-height {
     height: 550px;
 }
-/* .radial-progress::after {
-    display: none;
-} */
+
+.background-img1 {
+    background-image: url('../Images/2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.background-img2 {
+    background-image: url('../Images/3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.background-img3 {
+    background-image: url('../Images/4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
