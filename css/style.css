@@ -1,6 +1,11 @@
 .manrope {
     font-family: 'Manrope', sans-serif;
 }
+.element-container {
+    width: 90%;
+    max-width: 1170px;
+    margin: auto;
+}
 .slide-height {
     height: 550px;
 }
